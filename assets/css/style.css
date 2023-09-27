@@ -135,53 +135,9 @@
     left: 1%;
 }
 
-.cloud {
-    margin-top: 70px;
-    width: 1003px;
-    height: 463.625px;
-    background: #ECEFF1;
-    /* box-shadow: 10px 10px rgba(0, 0, 0, 0.2); */
-    border-radius: 237px;
-}
-
-.cloud::after,
-.cloud::before {
-    content: "";
-    position: relative;
-    display: inline-block;
-    background: inherit;
-    border-radius: inherit;
-}
-
-.cloud::after {
-    width: 100px;
-    height: 100px;
-    top: -220px;
-    left: 50px;
-}
-
-.cloud::before {
-    width: 180px;
-    height: 180px;
-    top: -70px;
-    left: 130px;
-}
-
 .z_index_2 {
     z-index: 2;
 }
-
-/* .white-cloud::after {
-    content: "";
-    background-image: url(../images/png/white-cloud.png);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 482px;
-    z-index: 1;
-} */
 
 .bg_bluesky {
     background-image: url(../images/png/bg-bluesky.png);
@@ -443,6 +399,12 @@
         left: 0;
         right: 0;
         bottom: -8%;
+    }
+
+    .four-puppy1 {
+        bottom: 5%;
+        left: 0;
+        right: 0;
     }
 
     .mw-655 {
