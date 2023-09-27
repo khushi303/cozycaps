@@ -123,6 +123,15 @@
     color: #FF9300;
 }
 
+.bg-orange1 {
+    background-color: #FF9300 !important;
+}
+
+.bg-green1 {
+    background-color: #5BA72B !important;
+}
+
+
 .green1 {
     color: #5BA72B;
 }
