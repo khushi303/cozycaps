@@ -95,7 +95,7 @@
 }
 
 .four-puppy1 {
-    bottom: 5%;
+    bottom: 2%;
     left: 0;
     right: 0;
 }
@@ -311,8 +311,8 @@
     margin-bottom: -2px;
 }
 
-.min_vh_90 {
-    min-height: 90vh;
+.min_vh_80 {
+    min-height: 80vh;
 }
 
 .overflow_hidden {
@@ -335,6 +335,10 @@
         left: 0;
         right: 0;
         bottom: -4%;
+    }
+
+    .min_vh_90 {
+        min-height: 90vh;
     }
 }
 
@@ -409,6 +413,14 @@
 
     .mw-655 {
         max-width: 655px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:992px) {
+    .four-puppy1 {
+        bottom: 2%;
+        left: 0;
+        right: 0;
     }
 }
 
