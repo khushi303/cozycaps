@@ -88,6 +88,12 @@
     border-radius: 44px;
     background: #4CBAFF;
     border: 1px solid #4CBAFF;
+    transition: .3s linear;
+}
+
+.btn-join:hover {
+    background: white !important;
+    color: #4CBAFF !important;
 }
 
 .pb-37 {
